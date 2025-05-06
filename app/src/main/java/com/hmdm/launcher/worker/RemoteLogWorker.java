@@ -51,8 +51,8 @@ public class RemoteLogWorker extends Worker {
     // Logs are sent once per minute to reduce the server load
     public static final int FIRE_PERIOD_MINS = 1;
 
-    // If there's no Internet, retry in 15 minutes
-    public static final int FIRE_PERIOD_RETRY_MINS = 15;
+    // If there's no Internet, retry in 2 minutes
+    public static final int FIRE_PERIOD_RETRY_MINS = 2;
 
     private static final String WORK_TAG_REMOTE_LOG = "com.hmdm.launcher.WORK_TAG_REMOTE_LOG";
 
